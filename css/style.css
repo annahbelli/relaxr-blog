@@ -1,0 +1,274 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     background-color: #f0efef;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  margin: auto;
+}
+
+/*Navigation*/
+
+nav {
+  background-color: #033048;
+  height: 81px;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+nav:after {
+  content:"";
+  clear: both;
+  display: block;
+}
+
+nav li {
+  display: inline-block;
+  color: #f9e42e;
+  margin-left: 20px;
+}
+
+#top-logo {
+  
+  width: 20%;
+  display: inline-block;
+  padding-left: 7%;
+}
+
+nav .logo {
+  color: #f0efef;
+}
+
+#nav-items {
+  display: inline-block;
+  float: right;
+  font-size: 24px;
+  color: #f9e42e;
+  padding-right: 8%;
+}
+
+/*Main Section - Two Columns*/
+
+#main-section {
+  background-color: #f0efef;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.article {
+    padding-top: 5%;
+}
+
+#col-66 {
+  width: 66%;
+
+}
+
+#col-33 {
+  width: 33%;
+  padding-left: 5%;
+
+}
+
+.col img {
+  width: 100%;
+}
+
+
+/*blog posts*/
+.headline {
+  font-size: 40px;
+  font-weight: 600;
+  color: #121212;
+  margin-bottom: 5px;
+}
+
+.copy {
+  font-weight: 300;
+  font-size: 24px;
+  color: #606161;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+.read-more {
+  font-size: 24px;
+  font-weight: 600;
+  color: #121212;
+  text-align: right;
+  margin-bottom: 52px;
+}
+
+.copy:first-letter {
+  font-size: 200%;
+  float: left;
+  font-weight: 600;
+  padding-right: 2px;
+  padding-bottom: -10px;
+}
+
+/*Right side bar*/
+
+#categories {
+  margin-bottom: 40px;
+  padding-top: 5%;
+}
+.subhead {
+  font-size: 32px;
+  font-weight: 800;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.side-items {
+  font-weight: 300;
+  font-size: 24px;
+  color: #606161;
+}
+
+.learn {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#about {
+  margin-bottom: 43px;
+}
+
+.about-text {
+  font-size: 22px;
+  font-weight: 300;
+  color: #606161;
+
+}
+/*Ad Unit*/
+
+#ad-unit {
+  background-color: white;
+  height: 700px;
+  text-align: center;
+}
+
+/*Sign Up Button Section*/
+.button {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 3%;
+}
+
+.button .signup {
+  text-align: center;
+  background-color: #153054;
+  font-size: 12px;
+  font-weight: 800;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #121212;
+  padding: 5px 30px;
+  color: #f0efef;
+}
+
+/*Footer*/
+.footer {
+  text-align: center;
+  background-color: #606161;
+  padding: 4%;
+}
+
+.footer .logo {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 31px;
+}
+
+#twitter {
+    margin-right: 11px;
+}
+
+#facebook {
+  margin-left: 11px;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 9px;
+  color: #f0efef;
+  margin-top: 28px;
+}
+/******************************************
+/* UTILITY CLASSES
+/*******************************************/
+
+.logo
+{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.col {
+  float: left;
+}
+
+
+
