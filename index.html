@@ -2,99 +2,83 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-		<title>Relaxr Blog</title>
+		<title>Weather Background</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400i,600,800" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
-
-	
-
+		
 	</head>
 	<body>
-		<div id="container">
-
-		<!-- Navigation -->
-		<nav>
-			<div id="top-logo">
+		<header>
+			<div class="container">
 				<h1 class="logo">Relaxr</h1>
-			</div>
-			<div id="nav-items">
-				<ul id="top-navigation">
-					<li><a href="#">About</a></li>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Team</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-			</div>
-		</nav>
-
-<!-- Main Page Body -->
-		<div id="main-section" class="clearfix">
-		<!-- Posts side (left) -->
-			<div id="col-66" class="col">
-				<div class="article">
-					<h2 class="headline"><a href="#">
-						How I implemented Relaxr in 2 weeks and changed my life.
-					</a></h2>
-					<img src="images/blog_photo1.jpg" alt="Boating">
-					<article class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur provident nemo quasi consectetur totam atque ea, distinctio, ipsam culpa, non inventore blanditiis voluptatem nulla. Labore sapiente officiis quae officia fuga! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magnam, quos ullam porro aperiam sapiente nesciunt consequatur quaerat, sequi, iusto in quis eius explicabo recusandae! Quibusdam quidem tenetur delectus itaque!</article>
-					<h3 class="read-more"><a href="#">
-						Read More >
-					</a></h3>
-					<hr/>
-				</div>
-				<div class="article">
-					<h2 class="headline"><a href="#">
-						I traveled across the globe thanks to Relaxr's Excel automation.
-					</a></h2>
-					<img src="images/blog_photo2.jpg" alt="Boating">
-					<article class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur provident nemo quasi consectetur totam atque ea, distinctio, ipsam culpa, non inventore blanditiis voluptatem nulla. Labore sapiente officiis quae officia fuga! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magnam, quos ullam porro aperiam sapiente nesciunt consequatur quaerat, sequi, iusto in quis eius explicabo recusandae! Quibusdam quidem tenetur delectus itaque!</article>
-					<h3 class="read-more"><a href="#">
-						Read More >
-					</a></h3>
-					<hr/>
-				</div>
-			</div>
-			<!-- Sidebar -->
-			<div id="col-33" class="col">
-				<div id="categories">
-					<h2 class="subhead">Categories</h2>
+				<nav>
 					<ul>
-						<li class="side-items"><a href="#">Success Stories</a></li>
-						<li class="side-items"><a href="#">Stats</a></li>
-						<li class="side-items"><a href="#">How tos</a></li>
-						<li class="side-items"><a href="#">Best of</a></li>
-						<li class="side-items"><a href="#">Business tips</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Blog</a></li>
 					</ul>
-				</div>
-				<div id="about">
-					<h2 class="subhead">About Relaxr</h2>
-					<p class="about-text">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br><a href="#" class="learn">Learn more</a></p>
-				</div>
-				<a href="#"><div id="ad-unit">
-					<h2 class="subhead">Ad Unit</h2>
-				</div></a>
+				</nav>
 			</div>
+		</header>
+		<section id="main">
+			<div class="container">
+				<section id="posts">
+					<article class="post">
+						<h2><a href="#">How I implemented Relaxr in 2 weeks and changed my life.</a></h2>
+						<img src="images/blog_photo1.jpg" alt="Crew Meet">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
 
-		</div>
+						<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+						<p class="readmore"><a href="#">Read more &gt;</a></p>
+						<div id="prevent"></div>
+						<p class="readless hide"><a href="#">Read less &gt;</a></p>
+					</article>
+					<article class="post">
+						<h2><a href="#">I traveled across the globe thanks to Relaxr’s Excel auomation</a></h2>
+						<img src="images/blog_photo2.jpg" alt="Canoes">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
 
-		<div class="button">
-			<button class="signup"><a href="#">Sign Up Now!</a></button>
-		</div>
+					</article>
+				</section><!--
+			--><aside id="sidebar">
+					<h3>Categories</h3>
+					<ul>
+						<li><a href="#">Success stories</a></li>
+						<li><a href="#">Stats</a></li>
+						<li><a href="#">How tos</a></li>
+						<li><a href="#">Best of</a></li>
+						<li><a href="#">Business tips</a></li>
+					</ul>
+					<h3>About Relaxr</h3>
+					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
+					<a href="#" class="learnmore">Learn More</a> <span class="hide" id="learnmoretext">Here is some more text about this fun thing!</p>
+					<img src="images/ad-unit.png" alt="Ad Unit">
+				</aside>
+			</div>
+		</section>
 
-		<footer class="footer">
-			<h1 class="logo"><a href="#">Relaxr</a></h1>
-			<a href="#"><img src="../starter_code/images/twitter.png" alt="Twitter Logo" class="social" id="twitter"></a>
-			<a href="#"><img src="../starter_code/images/facebook.png" alt="Facebook Logo" class="social" id="facebook"></a>
+		<aside id="bottom-cta">
+			<a class="button blue" href="#">Sign Up Now!</a>
+		</aside>
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
 
-		</div><!-- #container -->
+		<script src="js/jquery.js"></script> 
+    	<script src="js/app.js"></script>
 	</body>
 </html>
